@@ -1,16 +1,13 @@
-principal = int(input("원금입력 : "))
-interest = float(input("이자율 입력(%) : "))
-interest=interest*0.01
-year= int(input("상환기간 입력 : "))
-res=principal
-for year in range(24):
-    res+= res * interest
+temp = int(input("화씨 온도를 입력해주세요 : "))
+ctemp=(temp-32)*5.0/9.0
 
-print("---------------------------------------------")
-print("원금 : "+ str(principal))
-print("이자율 : "+str(interest*100))
-print("상환기간 : "+str(year+1))
-print("상환해야할금액 : "+str(res))
-//
+
+
+
+print("-----------------------------------------------")
+print("섭씨온도는 "+str(int(ctemp))+"°c 입니다")
+print("화씨온도는 "+str(temp)+"°f 입니다")
+print("-----------------------------------------------")
+
 
   
