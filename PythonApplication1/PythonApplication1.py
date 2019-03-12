@@ -11,6 +11,6 @@ print("원금 : "+ str(principal))
 print("이자율 : "+str(interest*100))
 print("상환기간 : "+str(year+1))
 print("상환해야할금액 : "+str(res))
-
+//
 
   
