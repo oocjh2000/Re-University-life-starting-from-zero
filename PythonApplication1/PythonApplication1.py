@@ -1,19 +1,12 @@
-price=int(input("물건값을 입력하세요"))
-thou=int(input("1000won : "))
-five=int(input("500won : "))
-one=int(input("100won : "))
-total=(thou*1000)+(five*500)+(one*100)
-res=total-price
-thou=res//1000
-res=res%1000
-
-five=res//500
-res=res%500
-
-one=res//100
-res=res%100
-
-ten=res//10
-res=res%10
-
-print("1000 is "+str(thou)+" 500 is :"+str(five)+" 100 is :"+str(one)+" 10 is :"+str(ten))
+def main():
+   total = int(input("구입금액을 입력하세요"))
+   if total>=100000:
+       total-=int(total*0.05)
+       print("5%할인이 적용된 금액은"+str(total)+"원 입니다.")
+   else:
+       print(str(100000-total)+"원치를 더 구매하시면 5%할인을 받을 수 있습니다")
+      
+   
+if __name__=="__main__":
+    main()
+    
