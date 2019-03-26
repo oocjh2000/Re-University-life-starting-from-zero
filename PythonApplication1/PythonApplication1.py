@@ -1,10 +1,12 @@
 def main():
-   total = int(input("구입금액을 입력하세요"))
-   if total>=100000:
-       total-=int(total*0.05)
-       print("5%할인이 적용된 금액은"+str(total)+"원 입니다.")
-   else:
-       print(str(100000-total)+"원치를 더 구매하시면 5%할인을 받을 수 있습니다")
+ a=int(input("정수입력"))
+ if a>0:
+     print("양수")
+ elif a<0:
+     print("음수")
+ else:
+     print("0")
+      
       
    
 if __name__=="__main__":
