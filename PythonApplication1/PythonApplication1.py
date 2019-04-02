@@ -1,14 +1,15 @@
-def main():
- a=int(input("정수입력"))
- if a>0:
-     print("양수")
- elif a<0:
-     print("음수")
- else:
-     print("0")
-      
-      
-   
-if __name__=="__main__":
-    main()
-    
+def bokun(n):
+    sum=0
+    if n%17>8:
+        n+=17
+        n=n*(n//3)
+    else:
+     n=n*(n//3)
+    for i in range(1,n):
+        if i%3==0:
+            continue
+        sum+=i
+    return sum
+
+n=int(input())
+print(bokun(n))
