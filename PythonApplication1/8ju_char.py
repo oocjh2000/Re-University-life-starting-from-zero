@@ -11,21 +11,21 @@ def init_list(list):
     return list
 def display(list):
     sum=0
-    for i in range(m):
-        for j in range(n):
-            sum+=j
+    for i in range(n):
+        for j in range(m):
+            sum+=list[i][j]
     print(sum)
     sum=0
-    for i in range(m):
-        for j in range(n):
-            if j%2==0:
-                sum+=j
-    sum=0
+    for i in range(n):
+        for j in range(m):
+            if list[i][j]%2==0:
+                sum+=list[i][j]
     print(sum)
-    for i in range(m):
-        for j in range(n):
-            if j%2!=0:
-                sum+=j
+    sum=0
+    for i in range(n):
+        for j in range(m):
+            if list[i][j]%2==1:
+                sum+=list[i][j]
     print(sum)
 
 if __name__=='__main__':
