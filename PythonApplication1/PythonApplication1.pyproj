@@ -21,6 +21,24 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="12주차\pkg\eeny.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="12주차\pkg\meeny.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="12주차\pkg\miny.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="12주차\pkg\moe.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="12주차\pkg\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="12주차\test.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="과제1\homework1_3_dice.py">
       <SubType>Code</SubType>
     </Compile>
@@ -50,6 +68,8 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="12주차\" />
+    <Folder Include="12주차\pkg\" />
     <Folder Include="과제2\" />
     <Folder Include="과제1\" />
   </ItemGroup>
