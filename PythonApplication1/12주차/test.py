@@ -1,6 +1,7 @@
 from pkg import *
 
-eeny.speak()
-meeny.look()
-miny.run()
-moe.bite()
+if __name__=='__main__':
+    eeny.speak()
+    meeny.look()
+    miny.run()
+    moe.bite()
