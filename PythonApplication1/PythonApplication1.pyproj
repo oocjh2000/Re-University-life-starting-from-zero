@@ -39,6 +39,9 @@
     <Compile Include="12주차\test.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="파일입출력\module1.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="과제1\homework1_3_dice.py">
       <SubType>Code</SubType>
     </Compile>
@@ -70,8 +73,12 @@
   <ItemGroup>
     <Folder Include="12주차\" />
     <Folder Include="12주차\pkg\" />
+    <Folder Include="파일입출력\" />
     <Folder Include="과제2\" />
     <Folder Include="과제1\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="파일입출력\TextFile1.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
