@@ -3,13 +3,14 @@
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>8c3610c7-0db6-46f6-b0ea-08f0ae4715d2</ProjectGuid>
-    <ProjectHome>.</ProjectHome>
+    <ProjectHome>
+    </ProjectHome>
     <StartupFile>과제2\homework2_2.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
-    <Name>PythonApplication1</Name>
+    <Name>실습</Name>
     <RootNamespace>PythonApplication1</RootNamespace>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
@@ -39,6 +40,12 @@
     <Compile Include="12주차\test.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="나는_오이가_싫어요\5252.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="나는_오이가_싫어요\person.py" />
+    <Compile Include="나는_오이가_싫어요\School.py" />
+    <Compile Include="나는_오이가_싫어요\오이만들기.py" />
     <Compile Include="파일입출력\module1.py">
       <SubType>Code</SubType>
     </Compile>
@@ -54,9 +61,6 @@
     <Compile Include="과제1\homework1_2.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="과제1\person.py">
-      <SubType>Code</SubType>
-    </Compile>
     <Compile Include="과제2\bank.py">
       <SubType>Code</SubType>
     </Compile>
@@ -69,15 +73,22 @@
     <Compile Include="과제2\homework2_2.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="파일입출력\module2.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="12주차\" />
     <Folder Include="12주차\pkg\" />
+    <Folder Include="나는_오이가_싫어요\" />
+    <Folder Include="나는_오이가_싫어요\__pycache__\" />
     <Folder Include="파일입출력\" />
     <Folder Include="과제2\" />
     <Folder Include="과제1\" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="나는_오이가_싫어요\data.bin" />
+    <Content Include="나는_오이가_싫어요\__pycache__\School.cpython-36.pyc" />
     <Content Include="파일입출력\TextFile1.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
