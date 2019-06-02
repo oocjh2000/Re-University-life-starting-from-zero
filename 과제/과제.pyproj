@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>4356aec1-c2fc-49cd-b56c-60be4e75a405</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>과제.py</StartupFile>
+    <StartupFile>과제3\homework3_1_2.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -31,8 +31,16 @@
     <Compile Include="과제2\homework2_1.py" />
     <Compile Include="과제2\homework2_2.py" />
     <Compile Include="과제2\School.py" />
+    <Compile Include="과제3\bank.py" />
+    <Compile Include="과제3\homework3_1_1.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="과제3\homework3_1_2.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="과제3\" />
     <Folder Include="과제1\" />
     <Folder Include="과제2\" />
   </ItemGroup>
