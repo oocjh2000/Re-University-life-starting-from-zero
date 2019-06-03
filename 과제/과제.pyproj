@@ -21,7 +21,6 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="과제.py" />
     <Compile Include="과제1\circle.py" />
     <Compile Include="과제1\homework1_1.py" />
     <Compile Include="과제1\homework1_2.py" />
