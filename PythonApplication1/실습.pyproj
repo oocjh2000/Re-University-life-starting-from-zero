@@ -12,6 +12,7 @@
     <OutputPath>.</OutputPath>
     <Name>실습</Name>
     <RootNamespace>PythonApplication1</RootNamespace>
+    <IsWindowsApplication>False</IsWindowsApplication>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -46,6 +47,9 @@
     <Compile Include="13주차\ScvGetItGoSir.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="args\module1.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="나는_오이가_싫어요\5252.py">
       <SubType>Code</SubType>
     </Compile>
@@ -66,6 +70,7 @@
     <Folder Include="12주차\" />
     <Folder Include="12주차\pkg\" />
     <Folder Include="13주차\" />
+    <Folder Include="args\" />
     <Folder Include="음성인식\" />
     <Folder Include="나는_오이가_싫어요\" />
     <Folder Include="나는_오이가_싫어요\__pycache__\" />
