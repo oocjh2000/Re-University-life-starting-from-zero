@@ -1,6 +1,9 @@
-연도,제조서,모델,설명,가격
-1997,Ford,E350,"ac, abs, moon",3000.00
-1999,Chevy,"Venture ""Extended Edition""","",4900.00
-1999,Chevy,"Venture ""Extended Edition, Very Large""",,5000.00
-1996,Jeep,Grand Cherokee,"MUST SELL!
-air, moon roof, loaded",4799.00
+permalink, company, numEmps, category, city, state, fundedDate, raisedAmt, raisedCurrency, round
+lifelock, LiteLock, ,web, Tempe, AZ, 1-May-07, 6850000, USD, b
+lifelock, LiteLock, ,web, Tempe, AZ, 1-Oct-06, 6000000, USD, a
+lifelock, LiteLock, ,web, Tempe, AZ, 1-Jan-08, 2500000, USD, c
+mycityfaces, MyCityFaces, 7, web, Scottsdale, AZ, 1-Jan-08,50000, USD, seed
+flypaper, Flypaper,,web,Phoenix, AZ, 1-Feb-08, 3000000, USD, a
+infusionsoft, Infusionsoft, 105, software, Gilbert, AZ, 1-Oct-07, 9000000, USD, a
+qauto,gAuto, 4, web, Scottsdale, AZ, 1-Jan-08, 250000, USD, seed
+chosenlist-com, ChosenList.com, 5, web, Scottsdale, AZ, 1-Oct-06, 140000, USD, seed

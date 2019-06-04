@@ -40,6 +40,9 @@
     <Compile Include="12주차\test.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="13주차\AngGiMoTTI.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="13주차\ScvGetItGoSir.py">
       <SubType>Code</SubType>
     </Compile>

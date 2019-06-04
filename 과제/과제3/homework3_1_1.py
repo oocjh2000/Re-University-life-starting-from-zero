@@ -1,3 +1,7 @@
+#!/usr/bin/python
+# -*- coding: <utf-8> -*-
+import io, sys
+sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf8')
 import bank
 import random
 import pickle
