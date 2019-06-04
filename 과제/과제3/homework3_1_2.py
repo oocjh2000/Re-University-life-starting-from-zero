@@ -1,8 +1,8 @@
 import pickle
 import random
-f=open('과제3\saving.bin','rb')
+f=open('.\saving.bin','rb')
 saving_accounts=pickle.load(f)
-f=open('과제3\checking.bin','rb')
+f=open('.\checking.bin','rb')
 check_accounts=pickle.load(f)
 
 sum_sav=0

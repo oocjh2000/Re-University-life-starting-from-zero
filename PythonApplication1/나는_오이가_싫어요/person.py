@@ -1,15 +1,15 @@
 class person(object):
     """description of class"""
     def __init__(self,name,id,age,height,weight):
-        self.name=name
-        self.id=id
-        self.age=age
-        self.weight=weight
-        self.height=height
+        self.name = name
+        self.id = id
+        self.age = age
+        self.weight = weight
+        self.height = height
    
     def __repr__(self):
         return repr((self.age,self.weight,self.height))
 
     def __str__(self):
-        return "이름 : "+self.name+"  나이 : "+str(self.age)+"  키 : "+str(self.height)+"  체중 : "+str(self.weight)
+        return "이름 : " + self.name + "  나이 : " + str(self.age) + "  키 : " + str(self.height) + "  체중 : " + str(self.weight)
 

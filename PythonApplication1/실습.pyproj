@@ -69,7 +69,6 @@
     <Folder Include="파일입출력\" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="13주차\asdf.txt" />
     <Content Include="나는_오이가_싫어요\data.bin" />
     <Content Include="나는_오이가_싫어요\__pycache__\School.cpython-36.pyc" />
     <Content Include="파일입출력\TextFile1.txt" />
